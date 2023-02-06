@@ -45,7 +45,10 @@
                             <input type="text" placeholder="Search..." name="search">
                             <button type="submit"></button>
                         </div>
-                        <div class=" cart"></div>
+                        <div class=" cart">
+                            <div  id="products-count">0</div>
+                        </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -338,5 +341,24 @@
         </div>
     </main>
     <footer class="footer">footer</footer>
+    <div class="modal">
+        <div class="modal-block">
+            <form >
+               <div class="btn-wrap">
+                <div class="btn-close">X</div>
+               </div>
+                <h3>Please call for more details</h3>
+                <div class="form-field">
+                    <input type="text" placeholder="Your name">
+                </div>
+                <div class="form-field">
+                    <input type="text" placeholder="Your phone">
+                </div>
+                <button>Send</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
 </body>
 </html>
