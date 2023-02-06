@@ -113,6 +113,8 @@ header {
  .sub-menu li {
      border: 1px solid  #2c71b8;
      min-width: 285px; 
+     margin: auto;
+     margin-left: -1px;
      
  }
 
@@ -185,6 +187,61 @@ header {
     margin: auto;
     margin-top: 30px;
 
+ }
+
+ .sort {
+    margin: auto;
+    margin-top: 65px;
+   
+ }
+
+ .sort-menu-search-dad {
+    box-sizing: border-box;
+    border: 1px solid #ffffff;
+    background-color: #2f73b9;
+    position: relative;
+    color: #ffffff;
+    height: 40px;
+    padding: auto;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 21px;
+    
+ }
+
+ .sort-menu{
+    display:none;
+    background-color: #2f73b9;
+    position: absolute;
+    min-width: 270px; 
+    z-index: 10;
+    
+ }
+
+ .sort-menu li {
+    border: 1px solid  #2c71b8;
+    min-width: 270px; 
+ }
+
+ .sort-menu li a {
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+    color: #ffffff;
+ }
+
+ .sort-menu a:hover {
+    background-color: #ffffff;
+    color:#2f73b9;
+ }
+
+ .sort-menu-search-dad:hover .sort-menu {
+    display: block;
+ }
+
+ .sort-menu-search-dad .sort-menu {
+    margin: auto;
+    margin-left: -12px;
  }
 
 .product {
