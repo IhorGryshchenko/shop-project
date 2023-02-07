@@ -45,9 +45,9 @@ body {
 .col-8 {
     flex: 0 0 66.66667%;
     max-width: 66.66667%;
-    font-size:40px;
+    font-size:48px;
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+    font-weight: 700;
     color:#ffffff;
     margin: auto;
     margin-top: 30px;
@@ -139,7 +139,7 @@ header {
     border: 1px solid #2f73b9;
     display: block;
     margin-top: 3px;
-    background-color: #ffffff;
+    
     
 }
 
@@ -149,6 +149,8 @@ header {
         border: none;
         width: 170px;
         height: 40px;
+        background-color: transparent;
+        outline: none;
 }
 
 .search-btn button {
@@ -191,7 +193,7 @@ header {
 
  .sort {
     margin: auto;
-    margin-top: 65px;
+    margin-top: 30px;
    
  }
 
@@ -379,7 +381,7 @@ sup{
     background-color: #2f73b9;
     color: #ffffff;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left: 30px;
 }
 
@@ -388,8 +390,13 @@ sup{
     margin-top: 15px;
     margin-left: 30px;
     color: #ffffff;
+    background-color: #2f73b9;
+}
+
+.btn-add-to-cart:hover{
     background-color: rgba(255, 255, 255, .25);
 }
+
 .cart {
     position: relative;
     background-image: url(./images/cartblue.png);
