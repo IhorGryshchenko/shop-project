@@ -168,6 +168,17 @@ header {
       
 }
 
+.slider {
+    border-bottom: 1px solid white;
+}
+
+.slider-block > div {
+    text-align: center;
+    font-size: 50px;
+    padding: 150px 0;
+    color: white;
+}
+
 .cart {
     box-sizing:border-box;
     width: 40px;
@@ -293,7 +304,7 @@ header {
 }
 
 
-.like {
+.like-btn{
     box-sizing: border-box;
     width: 30px;
     height: 30px;
@@ -305,10 +316,11 @@ header {
     background-size: 19px 19px;
     background-position: center;
     background-repeat: no-repeat;
-     
+    background-color: transparent;
+     cursor: pointer;
 }
 
-.like:hover {
+.like-btn:hover , body .liked {
     background-image: url("./images/heart.png");
     background-color: #2f73b9;
     color: #ffffff;
@@ -385,6 +397,10 @@ sup{
     margin-left: 30px;
 }
 
+.btn-more-detalis:hover {
+    background-color: rgba(255, 255, 255, .25);
+}
+
 .btn-add-to-cart{
     margin: auto;
     margin-top: 15px;
@@ -431,7 +447,7 @@ sup{
     right: 0;
     background-color: rgba(0, 0, 0, 0.55);
     z-index: 100;
-    display: none;/*видалити цю стрічку щоб зявилoся вікно*/
+    display: none;
 }
 
 .modal-block {
@@ -458,4 +474,12 @@ sup{
 }
 .btn-close {
     cursor: pointer;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
 }

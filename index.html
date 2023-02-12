@@ -9,6 +9,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="reset.css">
+
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -54,7 +58,22 @@
             </div>
         </div>
     </header>
+
     <main class="main">
+        <div class="slider">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="slider-block">
+                            <div>Slider 1</div>
+                            <div>Slider 2</div>
+                            <div>Slider 3</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="container">
             <div class="row">
                 <div class="col-3">filter</div>
@@ -97,7 +116,9 @@
                                 <div class="product-img">
                                     <img src="./images/tv.png" alt="">
                                     <div class="zoom"></div>
-                                    <div class="like"></div>
+                                    <div class="like  " >
+                                        <button class="like-btn "></button>
+                                    </div>
                                 </div>
                                 <div class="product-title">#1 Device Name</div>
                                 <div class="product-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
@@ -124,7 +145,9 @@
                                 <div class="product-img">
                                     <img src="./images/pult.png" alt="">
                                     <div class="zoom"></div>
-                                    <div class="like"></div>
+                                    <div class="like">
+                                        <button class="like-btn"></button>
+                                    </div>
                                 </div>
                                 <div class="product-title">#2 Device Name</div>
                                 <div class="product-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
@@ -151,7 +174,9 @@
                                 <div class="product-img">
                                     <img src="./images/watch.png" alt="">
                                     <div class="zoom"></div>
-                                    <div class="like"></div>
+                                    <div class="like ">
+                                        <button class="like-btn"></button>
+                                    </div>
                                 </div>
                                 <div class="product-title">#3 Device Name</div>
                                 <div class="product-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
@@ -178,7 +203,9 @@
                                 <div class="product-img">
                                     <img src="./images/laptop.png" alt="">
                                     <div class="zoom"></div>
-                                    <div class="like"></div>
+                                    <div class="like ">
+                                        <button class="like-btn"></button>
+                                    </div>
                                 </div>
                                 <div class="product-title">#4 Device Name</div>
                                 <div class="product-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
@@ -205,7 +232,9 @@
                                 <div class="product-img">
                                     <img src="./images/pleayer.png" alt="">
                                     <div class="zoom"></div>
-                                    <div class="like"></div>
+                                    <div class="like ">
+                                        <button class="like-btn"></button>
+                                    </div>
                                 </div>
                                 <div class="product-title">#5 Device Name</div>
                                 <div class="product-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
@@ -232,7 +261,9 @@
                                 <div class="product-img">
                                     <img src="./images/iphone.png" alt="">
                                     <div class="zoom"></div>
-                                    <div class="like"></div>
+                                    <div class="like ">
+                                        <button class="like-btn"></button>
+                                    </div>
                                 </div>
                                 <div class="product-title">#6 Device Name</div>
                                 <div class="product-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
@@ -259,7 +290,9 @@
                                 <div class="product-img">
                                     <img src="./images/minilaptop.png" alt="">
                                     <div class="zoom"></div>
-                                    <div class="like"></div>
+                                    <div class="like ">
+                                        <button class="like-btn"></button>
+                                    </div>
                                 </div>
                                 <div class="product-title">#7 Device Name</div>
                                 <div class="product-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
@@ -286,7 +319,9 @@
                                 <div class="product-img">
                                     <img src="./images/watch.png" alt="">
                                     <div class="zoom"></div>
-                                    <div class="like"></div>
+                                    <div class="like ">
+                                        <button class="like-btn"></button>
+                                    </div>
                                 </div>
                                 <div class="product-title">#8 Device Name</div>
                                 <div class="product-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
@@ -313,7 +348,9 @@
                                 <div class="product-img">
                                     <img src="./images/pult.png" alt="">
                                     <div class="zoom"></div>
-                                    <div class="like"></div>
+                                    <div class="like ">
+                                        <button class="like-btn"></button>
+                                    </div>
                                 </div>
                                 <div class="product-title">#9 Device Name</div>
                                 <div class="product-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
@@ -344,7 +381,7 @@
     <div class="modal">
         <div class="modal-block">
             <form >
-               <div class="btn- wrap">
+               <div class="btn-wrap">
                 <div class="btn-close">X</div>
                </div>
                 <h3>Please call for more details</h3>
@@ -358,6 +395,10 @@
             </form>
         </div>
     </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
 
     <script src="./app.js"></script>
 </body>
