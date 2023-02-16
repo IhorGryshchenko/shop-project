@@ -32,8 +32,19 @@ modal.addEventListener("click",function (e) {
     if (e.target === modal) {
         closeModal ();
     }
-})
+});
+
+function showModalByScroll() {
+    if (window.scrollY >= document.body.scrollHeight / 2) {
+        openModal();
+        window.removeEventListener("scroll", showModalByScroll);
+    }
+}
+
+//setTimeout(openModal,10000);
+//window.addEventListener("scroll", showModalByScroll);
  
+
 
 
 // change like state
@@ -57,4 +68,9 @@ likeBtns.forEach((item) => item.addEventListener("click", function () {
 
 // slick
 
-$(".slider-block").slick();
+$(".slider-block").slick({
+    dots:true,
+   
+});
+
+AOS.init();
