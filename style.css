@@ -484,19 +484,35 @@ sup{
     display: none;
 }
 
+.slider-block > div {
+         text-align: center;
+         font-size: 50px;
+         padding: 150px;
+         color: white;
+}
 
 
 .slick-dots li button:before {
-    width: 10px;
-    height: 10px;
-    font-size: 5px;
-    content: url("./images/box-icon.svg");
-    opacity: 0.30;
-    color: white;
+    font-size: 20px;
+    border: 1px solid white;
+    content: "";
+    opacity: 1;
    
 }
 
+.slick-active::before {
+    background-color: white; 
+}
+
 .slick-dots li.slick-active button:before {
-    opacity: 0.75;
-    
+    background-color: white;
+    opacity: 1;
+}
+
+.slick-prev:before {
+    content: url(./images/cart.png);
+   
+    width: 5px;
+    height: 10px;
+    display: block;
 }
