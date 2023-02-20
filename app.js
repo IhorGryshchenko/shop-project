@@ -73,4 +73,5 @@ $(".slider-block").slick({
    
 });
 
-AOS.init();
+//AOS.init();
+

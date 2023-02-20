@@ -362,7 +362,7 @@ header {
 
 .product-price {
     margin: auto;
-    margin-top: 35px;
+    margin-top: 20px;
     color: #ffffff;
     display: flex;
     justify-content: center;
@@ -515,4 +515,9 @@ sup{
     width: 5px;
     height: 10px;
     display: block;
+}
+
+.product-quantity {
+    text-align: center;
+    margin-top: 10px;
 }
